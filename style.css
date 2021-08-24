@@ -1,0 +1,108 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.pimg,
+.pimg-mid {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg {
+  background-image: url("pics/pexels-sharon-mccutcheon-3784440.jpg");
+  min-height: 100%;
+}
+
+.pimg-mid {
+  background-image: url("pics/pexels-sharon-mccutcheon-3784440.jpg");
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+  background: #b099fa;
+  color: #73f59a;
+}
+
+.pText {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.border1 {
+  background-color: #111;
+  color: white;
+  padding: 20px;
+  border: none;
+}
+
+.border1.trans {
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.frame {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.frame > iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.col.pad1 {
+  padding-left: 150px;
+}
+
+.col.pad2 {
+  padding-right: 150px;
+}
+
+h2 {
+  width: 50%;
+  margin: 0 auto 30px;
+  background: #111;
+  padding: 10px 30px;
+}
+
+@media (max-width: 568px) {
+  .pimg {
+    background-attachment: scroll;
+  }
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
